@@ -16,7 +16,6 @@ def main():
             move_list.append(move_to_make)
             
 
-    #print("Game Over. Result: " + chess_game.get_game_result())
     print(move_list)
     print("Game Over")
 
