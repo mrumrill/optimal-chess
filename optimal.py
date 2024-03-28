@@ -1,11 +1,11 @@
-# stockfish.py
+# optimal.py
 from stockfish import Stockfish
 
 class Optimal:
     def __init__(self):
         # Initialize Stockfish engine here
         
-        self.engine = Stockfish(path=r"C:\Users\mattr\Downloads\stockfish-windows-x86-64\stockfish\stockfish-windows-x86-64")
+        self.engine = Stockfish(path="<YOUR PATH TO STOCKFISH ENGINE>")
 
     def best_move(self):
         # Implement logic to get the best move from Stockfish engine based on the current board state
